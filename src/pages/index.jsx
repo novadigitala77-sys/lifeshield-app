@@ -894,6 +894,6 @@ export default function App() {
           </div>
         </div>
       )
-  );
+  )
 }
 // updateS
