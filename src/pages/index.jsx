@@ -807,7 +807,6 @@ export default function App() {
 
   // Agent view
   return (
-    <>
       <div className="app">
         {/* Sidebar */}
         <aside className="sidebar">
@@ -899,4 +898,4 @@ export default function App() {
     </>
   );
 }
-
+// updateS
