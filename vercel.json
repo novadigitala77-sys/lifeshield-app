@@ -1,0 +1,24 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/reminders",
+      "schedule": "0 * * * *",
+      "comment": "Revisar y enviar recordatorios de citas cada hora"
+    },
+    {
+      "path": "/api/cron/sequences",
+      "schedule": "0 */6 * * *",
+      "comment": "Ejecutar secuencias de follow-up cada 6 horas"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET,POST,PATCH,DELETE,OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Content-Type, Authorization" }
+      ]
+    }
+  ]
+}
