@@ -870,7 +870,6 @@ export default function App() {
           ) : null}
         </main>
       </div>
-
       {/* New lead modal */}
       {showClientModal && (
         <div className="modal-overlay" onClick={() => setShowClientModal(false)}>
@@ -894,8 +893,7 @@ export default function App() {
             </div>
           </div>
         </div>
-      )}
-    </>
+      )
   );
 }
 // updateS
