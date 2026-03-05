@@ -867,7 +867,7 @@ export default function App() {
             <Reports />
           ) : navPage === "settings" ? (
             <Settings />
-          ) : null}
+          ) : null};
         </main>
       </div>
       {/* New lead modal */}
